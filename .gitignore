@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data Files (too large for git)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.zip
+data/preprocessed/*.npy
+*.npy
+
+# Models (can be regenerated)
+models/*.keras
+models/*.h5
+
+# Results (can be regenerated)
+results/visualizations/*.png
+results/metrics/*.json
+results/metrics/*.txt
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Keep directory structure but ignore contents
+data/raw/.gitkeep
+data/preprocessed/.gitkeep
+models/.gitkeep
+results/visualizations/.gitkeep
+results/metrics/.gitkeep
+
+# Keep these important files
+!data/preprocessed/preprocessing_metadata.json
+!results/metrics/.gitkeep

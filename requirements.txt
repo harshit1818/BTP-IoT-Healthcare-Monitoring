@@ -1,0 +1,7 @@
+pandas==2.3.3
+numpy==2.3.4
+openpyxl==3.1.5
+scikit-learn==1.7.2
+tensorflow==2.20.0
+matplotlib==3.10.7
+seaborn==0.13.2

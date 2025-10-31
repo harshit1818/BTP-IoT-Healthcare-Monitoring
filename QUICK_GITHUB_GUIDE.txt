@@ -1,0 +1,123 @@
+========================================
+QUICK GUIDE: Push BTP Project to GitHub
+========================================
+
+TWO WAYS TO PUSH:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+METHOD 1: AUTOMATED SCRIPT (EASIEST)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Open Terminal
+2. cd /Users/harshitraj/BTP
+3. ./setup_github.sh
+4. Follow the prompts
+5. Run: git push -u origin main
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+METHOD 2: MANUAL COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 1: Create Repository on GitHub
+------------------------------------
+Go to: https://github.com/new
+- Name: BTP-IoT-Healthcare-Monitoring
+- Public or Private
+- DON'T initialize with README
+- Create repository
+- Copy the URL
+
+Step 2: Initialize Git
+----------------------
+cd /Users/harshitraj/BTP
+git init
+git config user.name "Your Name"
+git config user.email "your@email.com"
+
+Step 3: Add Remote
+------------------
+git remote add origin https://github.com/USERNAME/REPO.git
+
+Step 4: Commit Files
+--------------------
+git add .
+git commit -m "Initial commit: BTP Project"
+
+Step 5: Push to GitHub
+----------------------
+git branch -M main
+git push -u origin main
+
+[Enter GitHub username and Personal Access Token when prompted]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMPORTANT: Personal Access Token
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You CANNOT use your GitHub password anymore.
+You MUST use a Personal Access Token.
+
+To create one:
+1. Go to: https://github.com/settings/tokens
+2. Click "Generate new token (classic)"
+3. Name: "BTP Project"
+4. Check "repo" scope
+5. Generate and COPY the token
+6. Use this token as your password when pushing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GETS UPLOADED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Uploaded (~5 MB):
+  - Source code (src/)
+  - Documentation (reports/, *.md)
+  - Scripts (run_*.sh)
+  - Configuration (requirements.txt)
+
+❌ NOT Uploaded (too large):
+  - Data files (data/)
+  - Models (models/)
+  - Results (results/)
+  - Virtual environment (venv/)
+
+Why? Git is for code, not large data files.
+Your collaborators can regenerate these by running your scripts.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AFTER PUSHING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your project will be at:
+https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
+
+Share this link with:
+- Your mentor
+- On your resume
+- LinkedIn profile
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Error: "Authentication failed"
+→ Use Personal Access Token, not password
+
+Error: "remote origin already exists"
+→ git remote remove origin
+→ Then add again
+
+Error: "Large files"
+→ Check .gitignore is working
+→ git status (should not show large files)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Read: GITHUB_SETUP_GUIDE.md (detailed instructions)
+Or run: ./setup_github.sh (automated setup)
+
+========================================
+Ready? Just run: ./setup_github.sh
+========================================

@@ -1,0 +1,77 @@
+{
+    "original_shape": [
+        50000,
+        5
+    ],
+    "cleaned_shape": [
+        45096,
+        10
+    ],
+    "features": [
+        "temp",
+        "bp_systolic",
+        "bp_diastolic",
+        "SpO2"
+    ],
+    "target_options": {
+        "full_posture": "posture_encoded",
+        "posture_activity": "posture_activity_encoded",
+        "binary_status": "posture_status_binary"
+    },
+    "posture_mapping": {
+        "0": "Read_Book_Abnormal",
+        "1": "Read_Book_Normal",
+        "2": "Siting_Telephone_Use_Abnormal",
+        "3": "Siting_Telephone_Use_Normal",
+        "4": "Sitting_Relax_Abnormal",
+        "5": "Sitting_Relax_Normal",
+        "6": "StandUp_Abnormal",
+        "7": "StandUp_Normal",
+        "8": "Use_Phone_StandUp_Abnormal",
+        "9": "Use_Phone_StandUp_Normal",
+        "10": "Vizionare_VideoLaptop_Abnormal",
+        "11": "Vizionare_VideoLaptop_Normal",
+        "12": "Walking_Abnormal",
+        "13": "Walking_Normal",
+        "14": "Write_PC_Abnormal",
+        "15": "Write_PC_Normal",
+        "16": "Write_book_Abnormal",
+        "17": "Write_book_Normal"
+    },
+    "activity_mapping": {
+        "0": "Read_Book",
+        "1": "Siting_Telephone_Use",
+        "2": "Sitting_Relax",
+        "3": "StandUp",
+        "4": "Use_Phone_StandUp",
+        "5": "Vizionare_VideoLaptop",
+        "6": "Walking",
+        "7": "Write_PC",
+        "8": "Write_book"
+    },
+    "scaler_params": {
+        "mean": [
+            37.00043646442467,
+            139.50274968955117,
+            79.49339187511087,
+            89.4929705517119
+        ],
+        "std": [
+            0.576982076005839,
+            23.072587201718708,
+            11.514551066366057,
+            5.758711558863275
+        ],
+        "features": [
+            "temp",
+            "bp_systolic",
+            "bp_diastolic",
+            "SpO2"
+        ]
+    },
+    "train_test_split": {
+        "test_size": 0.2,
+        "random_state": 42
+    },
+    "missing_values_dropped": 4904
+}
