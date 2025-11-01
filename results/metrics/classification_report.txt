@@ -1,0 +1,20 @@
+POSTURE ACTIVITY CLASSIFICATION - MLP PERFORMANCE REPORT
+======================================================================
+
+Test Accuracy: 0.1126 (11.26%)
+
+                       precision    recall  f1-score   support
+
+            Read_Book     0.0000    0.0000    0.0000       977
+ Siting_Telephone_Use     0.1161    0.8144    0.2032      1056
+        Sitting_Relax     0.0000    0.0000    0.0000       935
+              StandUp     0.0970    0.1017    0.0993      1032
+    Use_Phone_StandUp     0.1048    0.0105    0.0191      1045
+Vizionare_VideoLaptop     0.0000    0.0000    0.0000       936
+              Walking     0.0000    0.0000    0.0000       995
+             Write_PC     0.0957    0.0375    0.0539      1067
+           Write_book     0.0000    0.0000    0.0000       977
+
+             accuracy                         0.1126      9020
+            macro avg     0.0459    0.1071    0.0417      9020
+         weighted avg     0.0481    0.1126    0.0437      9020

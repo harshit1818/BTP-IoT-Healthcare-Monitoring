@@ -1,0 +1,53 @@
+{
+    "model_architecture": {
+        "type": "Sequential MLP",
+        "input_features": 4,
+        "output_classes": 9,
+        "hidden_layers": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rates": [
+            0.3,
+            0.3,
+            0.2
+        ],
+        "activation": "relu",
+        "output_activation": "softmax",
+        "total_parameters": 3081
+    },
+    "training_config": {
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "loss_function": "categorical_crossentropy",
+        "batch_size": 64,
+        "epochs": 100,
+        "validation_split": 0.2,
+        "early_stopping_patience": 15,
+        "random_seed": 42
+    },
+    "performance": {
+        "test_accuracy": 0.11263857781887054,
+        "test_loss": 2.1963837146759033,
+        "weighted_precision": 0.048138813926627035,
+        "weighted_recall": 0.11263858093126386,
+        "weighted_f1_score": 0.043737150002954917,
+        "epochs_trained": 24,
+        "best_val_accuracy": 0.12389135360717773
+    },
+    "class_names": [
+        "Read_Book",
+        "Siting_Telephone_Use",
+        "Sitting_Relax",
+        "StandUp",
+        "Use_Phone_StandUp",
+        "Vizionare_VideoLaptop",
+        "Walking",
+        "Write_PC",
+        "Write_book"
+    ],
+    "training_samples": 36076,
+    "test_samples": 9020,
+    "timestamp": "2025-11-01 01:13:46"
+}
