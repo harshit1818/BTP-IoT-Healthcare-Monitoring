@@ -33,9 +33,6 @@ Thumbs.db
 # Numpy arrays (large files)
 *.npy
 
-# Archive folder (old posture project - 31 MB)
-archive/
-
 # CSV cache (optional - keeping for now)
 # *.csv
 

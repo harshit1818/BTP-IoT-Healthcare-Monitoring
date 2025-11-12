@@ -1,0 +1,427 @@
+{
+  "timestamp": "2025-11-01 16:00:33",
+  "vitals_model": {
+    "test_accuracy": 0.08547671884298325,
+    "test_loss": 2.806607246398926,
+    "num_features": 4,
+    "features": [
+      "temperature",
+      "bp_systolic",
+      "bp_diastolic",
+      "spo2"
+    ],
+    "classification_report": {
+      "Read_Book_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 378.0
+      },
+      "Read_Book_Normal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 599.0
+      },
+      "Siting_Telephone_Use_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 301.0
+      },
+      "Siting_Telephone_Use_Normal": {
+        "precision": 0.09163636363636364,
+        "recall": 0.16710875331564987,
+        "f1-score": 0.11836542977923908,
+        "support": 754.0
+      },
+      "Sitting_Relax_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 234.0
+      },
+      "Sitting_Relax_Normal": {
+        "precision": 0.125,
+        "recall": 0.002849002849002849,
+        "f1-score": 0.005571030640668524,
+        "support": 702.0
+      },
+      "StandUp_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 306.0
+      },
+      "StandUp_Normal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 725.0
+      },
+      "Use_Phone_StandUp_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 295.0
+      },
+      "Use_Phone_StandUp_Normal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 750.0
+      },
+      "Vizionare_VideoLaptop_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 318.0
+      },
+      "Vizionare_VideoLaptop_Normal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 619.0
+      },
+      "Walking_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 302.0
+      },
+      "Walking_Normal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 693.0
+      },
+      "Write_PC_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 296.0
+      },
+      "Write_PC_Normal": {
+        "precision": 0.0843057558673135,
+        "recall": 0.833981841763943,
+        "f1-score": 0.1531316980233389,
+        "support": 771.0
+      },
+      "Write_book_Abnormal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 304.0
+      },
+      "Write_book_Normal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 673.0
+      },
+      "accuracy": 0.08547671840354767,
+      "macro avg": {
+        "precision": 0.016719006639093172,
+        "recall": 0.0557744221071442,
+        "f1-score": 0.01539267546906925,
+        "support": 9020.0
+      },
+      "weighted avg": {
+        "precision": 0.024594629263361072,
+        "recall": 0.08547671840354767,
+        "f1-score": 0.023417177022094223,
+        "support": 9020.0
+      }
+    }
+  },
+  "imu_model": {
+    "test_accuracy": 0.9215077757835388,
+    "test_loss": 0.28035399317741394,
+    "num_features": 9,
+    "features": [
+      "Roll_S1",
+      "Pitch_S1",
+      "Yaw_S1",
+      "Roll_S2",
+      "Pitch_S2",
+      "Yaw_S2",
+      "Roll_S3",
+      "Pitch_S3",
+      "Yaw_S3"
+    ],
+    "classification_report": {
+      "Read_Book_Abnormal": {
+        "precision": 0.9505494505494505,
+        "recall": 0.9153439153439153,
+        "f1-score": 0.9326145552560647,
+        "support": 378.0
+      },
+      "Read_Book_Normal": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9515859766277128,
+        "f1-score": 0.9298531810766721,
+        "support": 599.0
+      },
+      "Siting_Telephone_Use_Abnormal": {
+        "precision": 0.9067524115755627,
+        "recall": 0.9368770764119602,
+        "f1-score": 0.9215686274509803,
+        "support": 301.0
+      },
+      "Siting_Telephone_Use_Normal": {
+        "precision": 0.931758530183727,
+        "recall": 0.9416445623342176,
+        "f1-score": 0.9366754617414248,
+        "support": 754.0
+      },
+      "Sitting_Relax_Abnormal": {
+        "precision": 0.9581589958158996,
+        "recall": 0.9786324786324786,
+        "f1-score": 0.9682875264270613,
+        "support": 234.0
+      },
+      "Sitting_Relax_Normal": {
+        "precision": 0.9052631578947369,
+        "recall": 0.8575498575498576,
+        "f1-score": 0.880760790051207,
+        "support": 702.0
+      },
+      "StandUp_Abnormal": {
+        "precision": 0.9622641509433962,
+        "recall": 1.0,
+        "f1-score": 0.9807692307692307,
+        "support": 306.0
+      },
+      "StandUp_Normal": {
+        "precision": 0.8745247148288974,
+        "recall": 0.9517241379310345,
+        "f1-score": 0.9114927344782034,
+        "support": 725.0
+      },
+      "Use_Phone_StandUp_Abnormal": {
+        "precision": 0.9288025889967637,
+        "recall": 0.9728813559322034,
+        "f1-score": 0.9503311258278145,
+        "support": 295.0
+      },
+      "Use_Phone_StandUp_Normal": {
+        "precision": 0.928374655647383,
+        "recall": 0.8986666666666666,
+        "f1-score": 0.9132791327913279,
+        "support": 750.0
+      },
+      "Vizionare_VideoLaptop_Abnormal": {
+        "precision": 0.9112426035502958,
+        "recall": 0.9685534591194969,
+        "f1-score": 0.9390243902439024,
+        "support": 318.0
+      },
+      "Vizionare_VideoLaptop_Normal": {
+        "precision": 0.8971684053651267,
+        "recall": 0.9725363489499192,
+        "f1-score": 0.9333333333333333,
+        "support": 619.0
+      },
+      "Walking_Abnormal": {
+        "precision": 0.8917748917748918,
+        "recall": 0.6821192052980133,
+        "f1-score": 0.7729831144465291,
+        "support": 302.0
+      },
+      "Walking_Normal": {
+        "precision": 0.9418604651162791,
+        "recall": 0.8181818181818182,
+        "f1-score": 0.8756756756756757,
+        "support": 693.0
+      },
+      "Write_PC_Abnormal": {
+        "precision": 0.9372937293729373,
+        "recall": 0.9594594594594594,
+        "f1-score": 0.9482470784641068,
+        "support": 296.0
+      },
+      "Write_PC_Normal": {
+        "precision": 0.8863361547762999,
+        "recall": 0.9507133592736705,
+        "f1-score": 0.9173967459324155,
+        "support": 771.0
+      },
+      "Write_book_Abnormal": {
+        "precision": 0.980327868852459,
+        "recall": 0.9835526315789473,
+        "f1-score": 0.9819376026272578,
+        "support": 304.0
+      },
+      "Write_book_Normal": {
+        "precision": 0.9747235387045814,
+        "recall": 0.9167904903417533,
+        "f1-score": 0.9448698315467075,
+        "support": 673.0
+      },
+      "accuracy": 0.9215077605321508,
+      "macro avg": {
+        "precision": 0.9264592901688666,
+        "recall": 0.9253784888685068,
+        "f1-score": 0.9243944521188843,
+        "support": 9020.0
+      },
+      "weighted avg": {
+        "precision": 0.9223677321159661,
+        "recall": 0.9215077605321508,
+        "f1-score": 0.9205445126827095,
+        "support": 9020.0
+      }
+    }
+  },
+  "merged_model": {
+    "test_accuracy": 0.559312641620636,
+    "test_loss": 1.3193508386611938,
+    "num_features": 13,
+    "features": [
+      "temperature",
+      "bp_systolic",
+      "bp_diastolic",
+      "spo2",
+      "Roll_S1",
+      "Pitch_S1",
+      "Yaw_S1",
+      "Roll_S2",
+      "Pitch_S2",
+      "Yaw_S2",
+      "Roll_S3",
+      "Pitch_S3",
+      "Yaw_S3"
+    ],
+    "classification_report": {
+      "Read_Book_Abnormal": {
+        "precision": 0.8830409356725146,
+        "recall": 0.3994708994708995,
+        "f1-score": 0.5500910746812386,
+        "support": 378.0
+      },
+      "Read_Book_Normal": {
+        "precision": 0.6170212765957447,
+        "recall": 0.38731218697829717,
+        "f1-score": 0.4758974358974359,
+        "support": 599.0
+      },
+      "Siting_Telephone_Use_Abnormal": {
+        "precision": 0.3970802919708029,
+        "recall": 0.9036544850498339,
+        "f1-score": 0.5517241379310345,
+        "support": 301.0
+      },
+      "Siting_Telephone_Use_Normal": {
+        "precision": 0.5021881838074398,
+        "recall": 0.6087533156498673,
+        "f1-score": 0.5503597122302158,
+        "support": 754.0
+      },
+      "Sitting_Relax_Abnormal": {
+        "precision": 0.8356164383561644,
+        "recall": 0.5213675213675214,
+        "f1-score": 0.6421052631578947,
+        "support": 234.0
+      },
+      "Sitting_Relax_Normal": {
+        "precision": 0.5770114942528736,
+        "recall": 0.3575498575498576,
+        "f1-score": 0.4415127528583993,
+        "support": 702.0
+      },
+      "StandUp_Abnormal": {
+        "precision": 0.8233695652173914,
+        "recall": 0.9901960784313726,
+        "f1-score": 0.8991097922848664,
+        "support": 306.0
+      },
+      "StandUp_Normal": {
+        "precision": 0.4358974358974359,
+        "recall": 0.7737931034482759,
+        "f1-score": 0.5576540755467196,
+        "support": 725.0
+      },
+      "Use_Phone_StandUp_Abnormal": {
+        "precision": 0.7165991902834008,
+        "recall": 0.6,
+        "f1-score": 0.6531365313653137,
+        "support": 295.0
+      },
+      "Use_Phone_StandUp_Normal": {
+        "precision": 0.5398230088495575,
+        "recall": 0.488,
+        "f1-score": 0.5126050420168067,
+        "support": 750.0
+      },
+      "Vizionare_VideoLaptop_Abnormal": {
+        "precision": 0.6518324607329843,
+        "recall": 0.7830188679245284,
+        "f1-score": 0.7114285714285714,
+        "support": 318.0
+      },
+      "Vizionare_VideoLaptop_Normal": {
+        "precision": 0.2769607843137255,
+        "recall": 0.3651050080775444,
+        "f1-score": 0.31498257839721255,
+        "support": 619.0
+      },
+      "Walking_Abnormal": {
+        "precision": 0.8103448275862069,
+        "recall": 0.15562913907284767,
+        "f1-score": 0.2611111111111111,
+        "support": 302.0
+      },
+      "Walking_Normal": {
+        "precision": 0.7245508982035929,
+        "recall": 0.3492063492063492,
+        "f1-score": 0.47127555988315484,
+        "support": 693.0
+      },
+      "Write_PC_Abnormal": {
+        "precision": 0.8902439024390244,
+        "recall": 0.49324324324324326,
+        "f1-score": 0.6347826086956522,
+        "support": 296.0
+      },
+      "Write_PC_Normal": {
+        "precision": 0.4837962962962963,
+        "recall": 0.5421530479896238,
+        "f1-score": 0.5113149847094801,
+        "support": 771.0
+      },
+      "Write_book_Abnormal": {
+        "precision": 0.7330097087378641,
+        "recall": 0.993421052631579,
+        "f1-score": 0.8435754189944135,
+        "support": 304.0
+      },
+      "Write_book_Normal": {
+        "precision": 0.7628111273792094,
+        "recall": 0.774145616641902,
+        "f1-score": 0.7684365781710915,
+        "support": 673.0
+      },
+      "accuracy": 0.5593126385809313,
+      "macro avg": {
+        "precision": 0.6478443236995682,
+        "recall": 0.5825566540407523,
+        "f1-score": 0.5750612905200341,
+        "support": 9020.0
+      },
+      "weighted avg": {
+        "precision": 0.6080575029125499,
+        "recall": 0.5593126385809313,
+        "f1-score": 0.5513492120396302,
+        "support": 9020.0
+      }
+    }
+  },
+  "comparison": {
+    "vitals_accuracy": 0.08547671884298325,
+    "imu_accuracy": 0.9215077757835388,
+    "merged_accuracy": 0.559312641620636,
+    "improvement_imu_over_vitals": 978.0804273457263,
+    "improvement_merged_over_vitals": 554.345006677277,
+    "improvement_merged_over_imu": -39.304620501431565
+  }
+}
