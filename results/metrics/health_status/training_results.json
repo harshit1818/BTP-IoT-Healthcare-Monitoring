@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-12 19:47:30",
+  "models": {
+    "heartrate": {
+      "test_accuracy": 0.9544910192489624,
+      "test_precision": 0.43939393758773804,
+      "test_recall": 0.9666666388511658,
+      "test_auc": 0.9883643388748169,
+      "test_loss": 0.24631504714488983,
+      "epochs_trained": 44,
+      "features": [
+        "heart_rate",
+        "spo2"
+      ],
+      "architecture": [
+        32,
+        16
+      ]
+    },
+    "temperature": {
+      "test_accuracy": 0.9593669176101685,
+      "test_precision": 0.6003016829490662,
+      "test_recall": 0.9950000047683716,
+      "test_auc": 0.9964097142219543,
+      "test_loss": 0.0958477109670639,
+      "epochs_trained": 66,
+      "features": [
+        "dht11_temp_c"
+      ],
+      "architecture": [
+        16,
+        8
+      ]
+    },
+    "combined": {
+      "test_accuracy": 0.9628742337226868,
+      "test_precision": 0.49056604504585266,
+      "test_recall": 0.8666666746139526,
+      "test_auc": 0.9517598152160645,
+      "test_loss": 0.17058001458644867,
+      "epochs_trained": 34,
+      "features": [
+        "heart_rate",
+        "spo2",
+        "dht11_temp_c"
+      ],
+      "architecture": [
+        64,
+        32,
+        16
+      ]
+    }
+  },
+  "comparison": {
+    "best_accuracy": 0.9628742337226868,
+    "best_recall": 0.9950000047683716,
+    "best_auc": 0.9964097142219543,
+    "best_model": "Heart Rate"
+  }
+}

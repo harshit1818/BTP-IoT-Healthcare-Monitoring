@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary files (optional - keep models for now)
+# *.keras
+# *.h5
+
+# Numpy arrays (large files)
+*.npy
+
+# Archive folder (old posture project - 31 MB)
+archive/
+
+# CSV cache (optional - keeping for now)
+# *.csv
+
+# Results (keeping visualizations for now)
+# results/visualizations/*.png
